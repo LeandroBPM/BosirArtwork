@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/jquery1.js"></script>
 <style>
 body {background-color:white; color:black; font-family: "Raleway", Arial, sans-serif}
 .w3-row img {margin-bottom: -8px}
@@ -23,12 +25,19 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
 
   <!-- Header -->
   <header class="w3-2021-inkwell w3-container w3-xlarge w3-padding-24 w3-animate-opacity">
-    <a href="#bosir_artwork" class="w3-left w3-button w3-2021-inkwell">BOSIR ARTWORK</a>
-    <a href="#portfolio" class="w3-center w3-button w3-2021-inkwell">PORTFOLIO</a>
+    <a href="#bosir_artwork" class="w3-left w3-button w3-2021-inkwell">BOSIR ARTWORK PORTFOLIO</a>
     <a href="#about" class="w3-right w3-button w3-2021-inkwell">About/Sobre</a>
   </header>
 
-  <!-- Photo Grid -->
+  <script type="text/javascript" language="javascript">
+   $(document).ready(function() {
+     $("img").on("contextmenu",function(){
+        return false;
+     }); 
+ });
+  </script>
+
+    <!-- Photo Grid -->
   <div class="w3-row w3-animate-opacity">
     <div class="w3-third ">
       <img src="imagens\Hel_Artwork.png" alt="Hel" style="width:100%">
@@ -89,8 +98,8 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
 <!-- Footer / About Section -->
 <footer class="w3-2020-navy-blazer w3-padding-64 w3-center w3-animate-opacity" id="about">
   <h2>About me/Sobre mim</h2>
-  <img src="imagens/Leandro.png" alt="Bosir" class="w3-image w3-padding-32 w3-card-4 w3-2021-inkwell" width="300" height="300">
-  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+  <img src="C:\Users\Acer\Desktop\DP_Dev_web\Avaliação Web Dev\imagens/Leandro.png" alt="Bosir" class="w3-image w3-padding-32 w3-card-4 w3-2021-inkwell" width="300" height="300">
+  <form style="margin:auto;width:60%" action="email.html" target="_self">
     <p>EN: Hello! My name is Leandro, but I am better known as "Bosir". I started using Photoshop and practicing graphic design as a hobby and then I became very passionate about it. I love streetwear, trap/hip-hop music, art and basically anything related to these topics and I hope to be able to help people bring their artistic vision to life through my work! Nowadays I study Analysis and System Development and live in Brazil. :)</p>
 
     <p>PT/BR: Olá! Me chamo Leandro, mas sou conhecido pelo apelido de "Bosir". Comecei utilizar o Photoshop e praticar design gráfico como um hobby desde os 12 anos e fiquei apaixonado por Arte Digital desde então. Gosto muito de streetwear, hip-hop/trap music, arte e basicamente qualquer coisa relacionada à estes tópicos e espero ajudar as pessoas a darem vida às suas visões artísticas através do meu trabalho! Atualmente estudo Tecnologia em Análise e Desenvolvimento de sistemas e moro no Brasil. :)</p>
