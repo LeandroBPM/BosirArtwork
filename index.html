@@ -3,11 +3,13 @@
 <title>Bosir Artwork</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- INICIALIZAÇÃO DAS BIBLIOTECAS CSS DA W3 SCHOOLS -->
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <!-- INICIALIZAÇÃO DA BIBLIOTECA JQUERY -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/jquery1.js"></script>
 <style>
@@ -20,15 +22,19 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
 </style>
 <body>
 
-<!-- !PAGE CONTENT! -->
+<!-- !CONTEÚDO DA PÁGINA! -->
 <div class="w3-content" style="max-width:5000px">
 
   <!-- Header -->
   <header class="w3-2021-inkwell w3-container w3-xlarge w3-padding-24 w3-animate-opacity">
+    <!-- LINK PARA O INÍCIO DO PORTFÓLIO -->
     <a href="#bosir_artwork" class="w3-left w3-button w3-2021-inkwell">BOSIR ARTWORK PORTFOLIO</a>
+    <!-- LINK PARA A PÁGINA "About/Sobre"-->
     <a href="#about" class="w3-right w3-button w3-2021-inkwell">About/Sobre</a>
   </header>
 
+  <!-- Script JavaScript para impedir o download de imagens através do mosaico ao clicar com o botão direito do mouse.
+  NÃO impede o download por outros meios. Comportamento semelhante pode ser visto no conteúdo dos portfólios do site "behance.net". -->
   <script type="text/javascript" language="javascript">
    $(document).ready(function() {
      $("img").on("contextmenu",function(){
@@ -37,7 +43,7 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
  });
   </script>
 
-     <!-- Photo Grid -->
+     <!-- MOSAICO DE IMAGENS - Primeira Coluna -->
   <div class="w3-row w3-animate-opacity">
     <div class="w3-third ">
       <a href="imagens\base-hel.png" target="_blank"><img src="imagens\Hel_Artwork.png" alt="Hel" style="width:100%"></a>
@@ -54,6 +60,7 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
       <a href="imagens\base-zoro.png" target="_blank"><img src="imagens\zoro_estampaRGB_fundo_preto.png" alt="Zoro" style="width:100%"></a>
     </div>
 
+    <!-- MOSAICO DE IMAGENS - Segunda Coluna -->
     <div class="w3-third w3-animate-opacity">
       <a href="imagens\base-aang.png" target="_blank"><img src="imagens\aang_ruído.png" alt="Aang" style="width:100%"></a>
       <a href="imagens\base_Spiderman.png" target="_blank"><img src="imagens\MARVEL_ZOMBIES_Spider-Man_ruído.png" alt="Zombie Spider-Man" style="width:100%"></a>
@@ -74,9 +81,9 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
       <a href="imagens\base-f-love.png" target="_blank"><img src="imagens\FuckLove.png" alt="Fuck Love" style="width:100%"></a>
       <a href="imagens\base_vaporwave2.png" target="_blank"><img src="imagens\vaporwave2_filtrado.png" alt="Despair" style="width:100%"></a>
       <a href="imagens\base-yasuke.png" target="_blank"><img src="imagens\Yasuke_text_ruido.png" alt="Yasuke" style="width:100%"></a>
-
     </div>
 
+    <!-- MOSAICO DE IMAGENS - Terceira Coluna -->
     <div class="w3-third w3-animate-opacity">
       <a href="imagens\base-vortex.png" target="_blank"><img src="imagens\VORTEX.png" alt="Vortex" style="width:100%"></a>
       <a href="imagens\base-keep-out.png" target="_blank"><img src="imagens\keep_out.png" alt="Keep Out" style="width:100%"></a>
@@ -95,10 +102,10 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
     </div>
   </div>
   
-<!-- End Page Content -->
+<!-- FIm do Mosaico -->
 </div>
 
-<!-- Footer / About Section -->
+<!-- Footer / Seção About/Sobre -->
 <footer class="w3-2020-navy-blazer w3-padding-64 w3-center w3-animate-opacity" id="about">
   <h2>About me/Sobre mim</h2>
   <img src="imagens\Leandro.png" alt="Bosir" class="w3-image w3-padding-32 w3-card-4 w3-2021-inkwell" width="300" height="300">
@@ -123,6 +130,7 @@ body {background-color:white; color:black; font-family: "Raleway", Arial, sans-s
     <button type="submit" class="w3-btn w3-round w3-block w3-blue-grey">Send/Enviar</button>
   </form>
   <br>
+  <!-- Links para redes sociais -->
   <p><a href="https://www.instagram.com/wololost" target="_blank" class="w3-hover-text-pink">Instagram</a></p>
   <p><a href="https://www.youtube.com/channel/UC7fJC2rbB2RhbALtnfxHAaw" target="_blank" class="w3-hover-text-red">YouTube</a></p>
   <p><a href="https://www.twitter.com/wololost" target="_blank" class="w3-hover-text-blue">Twitter</a></p>
